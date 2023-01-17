@@ -1,38 +1,46 @@
-Data Pipeline using Amazon AWS to automate the data collection from API's to a MySQL local database.
+This project is a part of the [DataScience Bootcamp](https://www.wbscodingschool.com/data-science-bootcamp/) at [WBS Coding School](https://www.wbscodingschool.com/). Other datascience projects can be found at the main GitHub repo.</br>
 
-There is a medium article explaining this project: https://medium.com/@Icaromisquita/a-data-engineer-project-with-mysql-python-and-aws-e58608a157cc
+⚙ WBS Project 4 Data Pipeline with API's and Amazon AWS
 
-This project is a part of the DataScience Bootcamp at WBS Coding School. 
+🔹 Data Pipeline using Amazon AWS to automate the data collection from API's to a MySQL local database.
 
-Project Status: Finished and correcting some bugs.
-Project Intro/Objective
+📢📢📢 There is a Medium article about this project at: https://medium.com/@Icaromisquita/a-data-engineer-project-with-mysql-python-and-aws-e58608a157cc
+
+
+🔸 Project Intro/Objective
+
 The purpose of this project is to learn dealing with API's and JSON files.
 Data had to be requested, structured, and visualized. First a database is built in mySQL Workbench based on the data.
-Then the scripts are transferred to the cloud (Amazon Web Services) and scheduled to be executed every 24 hours. Iteratively, an SQL database of weather and flight-information is built in the cloud.
+Then the scripts are transferred to the cloud (Amazon Web Services) and scheduled to be executed every 24 hours. Iteratively, an SQL database of weather and flight-information is built in the cloud. </br>
 
-Methods Used
-API-Calls
-Data Engineering
-Data Visualization
-Cloud Computing
-Cloud Database
-Technologies
-Python
-pandas, jupyter, requests (api)
-Matplotlib
-Amazon Webservices
-SQL
-Project Description
+🔹 Methods Used
+  * API-Calls
+  * Data Engineering
+  * Data Visualization
+  * Cloud Computing
+  * Cloud Database 
+
+🔹 Technologies
+  * Python
+    * Pandas
+    * Jupyter Notebook
+    * Requests (api)
+    * Matplotlib
+    * Amazon Webservices
+   * SQL
+   * Sqlalchemy
+
+🔸 Project Description
+
 The data gathered is freely available:
 
-Weather Data -> Open Weather.
-Airport Data -> Rapid API
-City Data -> datahub.io
-Main goals of the project:
+  * Weather Data -> Open Weather.
+  * Airport Data -> Rapid API
+  * City Data -> datahub.io
 
-Libraries used in this project:
+🔸 Main goals of the project:
 
-pandas
-requests
-matplotlib
-sqlalchemy
+  * Access weather and airport data via API-requests
+  * Structure the incoming data to make it usable
+  * Create some basic visualisations
+  * Transfer the whole project to the cloud and schedule it for regular execution.
